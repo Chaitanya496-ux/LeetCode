@@ -13,8 +13,9 @@ public:
         minproduct = min(nums[i], minproduct * nums[i]);
         ans = max(ans, maxproduct);
             }
-        }
-        return ans;
+        
+    
+        return ans ;
         
     }
 };
