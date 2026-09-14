@@ -3,7 +3,7 @@ public:
     int bagOfTokensScore(vector<int>& tokens, int power) {
         int score = 0;
         int left = 0;
-        int right = nums.size()-1;
+        int right = tokens.size()-1;
         while(left<= right){
             if(power >= token[left]){
                 power -= token[left];
