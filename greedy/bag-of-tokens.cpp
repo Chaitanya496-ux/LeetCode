@@ -5,12 +5,12 @@ public:
         int left = 0;
         int right = tokens.size()-1;
         while(left<= right){
-            if(power >= token[left]){
-                power -= token[left];
+            if(power >= tokens[left]){
+                power -= tokens[left];
                 score += 1;
                 left += 1;
             }else if(score < 0 ){
-                power += token[right];
+                power += tokens[right];
                 score -= 1;
                 right -= 1;
 
